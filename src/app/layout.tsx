@@ -14,24 +14,27 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Z.ai Code Scaffold - AI-Powered Development",
-  description: "Modern Next.js scaffold optimized for AI-powered development with Z.ai. Built with TypeScript, Tailwind CSS, and shadcn/ui.",
-  keywords: ["Z.ai", "Next.js", "TypeScript", "Tailwind CSS", "shadcn/ui", "AI development", "React"],
-  authors: [{ name: "Z.ai Team" }],
+  title: "ODP Checker Perú - Verificador de Oficial de Datos Personales",
+  description: "Plataforma web interactiva para la difusión y comprensión de la Directiva sobre el Oficial de Datos Personales (ODP) conforme al Reglamento de la Ley de Protección de Datos Personales.",
+  keywords: ["ODP", "Protección de Datos", "Datos Personales", "Perú", "ANPD", "Ley 29733", "RLPDP", "Next.js", "TypeScript"],
+  authors: [{ name: "Roberto Puyó Valladares - Kepler Blacklock" }],
   icons: {
-    icon: "https://z-cdn.chatglm.cn/z-ai/static/logo.svg",
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
   },
   openGraph: {
-    title: "Z.ai Code Scaffold",
-    description: "AI-powered development with modern React stack",
-    url: "https://chat.z.ai",
-    siteName: "Z.ai",
+    title: "ODP Checker Perú - Verificador de Oficial de Datos Personales",
+    description: "Herramienta interactiva para determinar si tu entidad requiere designar un Oficial de Datos Personales según la normativa peruana",
+    url: "https://odp-checker-peru.vercel.app",
+    siteName: "ODP Checker Perú",
     type: "website",
+    locale: "es_PE",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Z.ai Code Scaffold",
-    description: "AI-powered development with modern React stack",
+    title: "ODP Checker Perú - Verificador ODP",
+    description: "Herramienta interactiva para determinar si tu entidad requiere designar un Oficial de Datos Personales",
   },
 };
 
