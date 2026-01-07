@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Fondo circular con gradiente -->
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#f0f9ff" />
+      <stop offset="100%" style="stop-color:#e0f2fe" />
+    </radialGradient>
+    <linearGradient id="shield" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e40af" />
+      <stop offset="100%" style="stop-color:#3b82f6" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Círculo exterior -->
+  <circle cx="256" cy="256" r="200" fill="url(#bg)" />
+  <circle cx="256" cy="256" r="190" fill="none" stroke="#3b82f6" stroke-width="12" />
+  
+  <!-- Escudo (forma minimalista sin texto) -->
+  <path d="M 176 176 
+           L 336 176 
+           L 336 206 
+           Q 336 256 321 256 
+           L 321 256 
+           L 321 296 
+           Q 321 336 281 336 
+           L 256 336 
+           Q 231 336 216 336 
+           L 191 336 
+           L 176 321 
+           L 176 296 
+           Q 176 256 191 256 
+           L 191 256 
+           Z" 
+        fill="url(#shield)" 
+        stroke="#ffffff" 
+        stroke-width="8" />
+  
+  <!-- Círculo interno (simula candado) -->
+  <circle cx="256" cy="256" r="50" fill="none" stroke="#ffffff" stroke-width="6" />
+  <circle cx="256" cy="256" r="40" fill="#ffffff" />
+  <circle cx="256" cy="256" r="25" fill="#60a5fa" />
+</svg>
